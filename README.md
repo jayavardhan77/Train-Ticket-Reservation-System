@@ -36,4 +36,12 @@ This project simulates a train ticket booking system with functionalities simila
 ---
 
 ## 📂 Project Structure
-
+Train-Ticket-Reservation-System/
+│
+├── header.h # Header file for function declarations and structs
+├── main.c # Main program file
+├── train_operations.c # Functions for train management
+├── ticket_operations.c # Functions for ticket booking & cancellation
+├── file_handling.c # Functions for persistent storage
+├── Makefile # Compilation rules
+└── README.md # Project documentation
