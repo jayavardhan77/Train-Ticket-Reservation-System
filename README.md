@@ -46,7 +46,7 @@ Train-Ticket-Reservation-System/
 ├── Makefile # Compilation rules
 └── README.md # Project documentation
 
-##📚 Learnings
+## 📚 Learnings
 
 Developed a modular C program with multiple source files.
 
