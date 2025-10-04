@@ -49,9 +49,6 @@ Train-Ticket-Reservation-System/
 ## 📚 Learnings
 
 Developed a modular C program with multiple source files.
-
 Implemented dynamic memory management using linked lists.
-
 Learned file handling for persistent storage of bookings.
-
 Improved understanding of user input validation and console-based UI.
