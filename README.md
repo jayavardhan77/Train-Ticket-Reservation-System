@@ -1,29 +1,39 @@
-# Train-Ticket-Reservation-System
-Developed a CLI-based train ticket booking system in C using linked lists and file handling. Added user/admin login and efficient seat allocation. Improved debugging and modular programming skills while handling a larger codebase.
+# 🚆 Train Ticket Reservation System
 
-## Features
+A **C-based Train Ticket Reservation System** implemented with **single linked lists** and **file handling**, designed for managing train bookings efficiently in a console-based environment.
 
--   **User Authentication**: Secure sign-up and sign-in system.
--   **Admin Panel**: An "officer" user can add, delete, and view train schedules.
--   **Ticket Booking**: Users can search for trains and book multiple seats.
--   **Ticket Cancellation**: Users can cancel a specific seat from their booking.
--   **Booking Details**: Users can view a list of all their reservations.
--   **Data Persistence**: All user, train, and booking data is saved to text files.
+---
 
-## How to Compile and Run
+## 📌 Project Overview
 
-1.  **Prerequisites**: You need `gcc` and `make` installed.
+This project simulates a train ticket booking system with functionalities similar to real-world railway booking platforms. It is implemented in **C** with a modular, multi-file architecture, providing a robust and interactive experience.
 
-2.  **Compile the project**:
-    ```bash
-    make -f Makefile.mak
-    ```
+**Key Features:**
+- View available trains and train details.
+- Reserve tickets with user information.
+- Cancel tickets and manage seat availability.
+- Search and display bookings.
+- Persistent data storage using file handling.
 
-3.  **Run the application**:
-    ```bash
-    ./myirctc
-    ```
+**Technology Stack:**
+- **Language:** C
+- **Data Structure:** Single Linked List
+- **File Handling:** Read/Write booking information
+- **Platform:** Console Application (Cross-platform)
 
-4.  **Admin Login**:
-    -   **Username**: `officer`
-    -   **Password**: The password you set for the officer during sign-up.
+---
+
+## 🛠️ Functionalities
+
+| Functionality | Description |
+|---------------|-------------|
+| `Display Trains` | List all available trains with details. |
+| `Reserve Ticket` | Book a ticket for a selected train and date. |
+| `Cancel Ticket` | Cancel a ticket and update seat availability. |
+| `Search Booking` | Search for a reservation using ticket ID or name. |
+| `File Handling` | Save and load ticket & train data for persistence. |
+
+---
+
+## 📂 Project Structure
+
